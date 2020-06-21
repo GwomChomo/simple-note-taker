@@ -1,0 +1,7 @@
+type Note @model {
+  id: ID!
+  title: String
+  note: String!
+  createdDate: String!
+  lastModifiedDate: String!
+}
